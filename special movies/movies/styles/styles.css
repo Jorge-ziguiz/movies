@@ -1,0 +1,129 @@
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+}
+body{
+	background-image:url("images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif; color: black;
+	margin: 0 auto;
+	text-decoration: none;
+}
+#logo{
+	width: 150px;
+	transition: transform .4s;
+}
+#logo:hover {
+    transform: scale(1.09); 
+}
+
+
+/*barra de navegacion*/
+.barnav {
+	background-image: url("images/barnav.png");
+	width:100%;
+	height: 174px;
+	position: fixed;
+	font-family: sans-serif;
+	opacity: .90;
+	z-index: 7;
+}
+.bargen{
+	font-family: sans-serif;
+	color: white;
+	margin-top: 20px;
+	background-image: url("images/bargen.png");
+	color: rgb( 133, 130, 138);
+	opacity: .97;
+}
+#tag1{
+	margin-left: 120px;
+
+}
+
+.imagen{
+	
+	margin-left: 10px;
+	margin-top: 10px;
+	width:200px;		
+}
+#home {
+	color: white;
+	position: absolute;
+	margin-top: -40px;
+	margin-left:400px ;
+	font-size: 19px;
+}
+#movies {
+	color: white;
+	position: absolute;
+	margin-left:580px ;
+	margin-top:-40px ;
+	font-size: 19px;
+}
+#support{
+	color: white;
+	position: absolute;
+	margin-left:780px ;
+	margin-top:-40px ;
+	font-size: 19px;
+}
+#login {
+	color: white;
+	position: absolute;
+	margin-left:1190px ;
+	margin-top:-95px ;
+	font-size: 10px;	
+}
+#find {
+	position: absolute;
+	margin-left:1120px ;
+	margin-top:	-66px ;
+	width: 27px;
+}
+#search{
+
+	font-size:15px;
+	color:white;
+	position: absolute;
+	margin-top: -100px;
+	margin-left:360px;
+
+}
+#browser {
+	border-radius: 30px;
+	height: 30px;
+	width: 500px;
+
+}
+#userimg{
+	position: fixed;
+	width: 90px;
+	margin-top: -150px;
+	margin-left: 1200px;
+	opacity: .99;
+	animation: transform 4s;
+}
+#userimg:hover {
+    transform: scale(1.09); 
+}
+#plogin{
+	position: fixed;
+	width: 100px;
+	margin-top: -50px;
+	margin-left: 1220px;
+	opacity: .99;
+
+}
+#imgsearch{
+	position: fixed;
+	width: 30px;
+	margin-top: -118px;
+	margin-left: 870px;
+	opacity: .99;
